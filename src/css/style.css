@@ -66,10 +66,6 @@ svg {
 }
 
 /* Base */
-:root {
-  font-size: calc(0.1vw + 1rem);
-}
-
 @media only screen and (width >= 81em) {
   :root {
     font-size: calc(0.3vw + 1rem);
