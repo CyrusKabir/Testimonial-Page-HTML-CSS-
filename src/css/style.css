@@ -59,7 +59,7 @@ svg {
   --fs-list-items: 0.875rem;
   --fw-regular: 400;
   --fw-semibold: 600;
-  --lh-base: 1.7;
+  --lh-base: 1.5;
   --radius: 16px;
   --shadow: 0px 0px 15px rgb(0 0 0 / 5%);
   --spacer: 1.25rem;
@@ -107,11 +107,11 @@ h2 {
 }
 
 .flow-content--xs {
-  --spacer: 0.625rem;
+  --spacer: 0.525rem;
 }
 
 .flow-content--sm {
-  --spacer: 1rem;
+  --spacer: 1.2rem;
 }
 
 .flow-content--md {
@@ -169,8 +169,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
+  width: 2.875rem;
+  height: 2.875rem;
   border-radius: 100%;
   background: var(--clr-secondary) url("/assets/images/star.png") center/1.5rem
     no-repeat;
