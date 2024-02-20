@@ -4,6 +4,7 @@ export default defineConfig({
   css: {
     postcss: "./postcss.config.js",
   },
+  base: "./",
   server: {
     open: true,
     watch: true,
@@ -12,6 +13,5 @@ export default defineConfig({
   root: "src",
   build: {
     outDir: "../",
-    emptyOutDir: false,
   },
 });
